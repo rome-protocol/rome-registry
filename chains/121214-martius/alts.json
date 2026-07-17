@@ -1,0 +1,24 @@
+{
+  "chain_id": "121214-martius",
+  "tables": [
+    {
+      "pubkey": "226Xv9DvkVJUSn2DJXxNbg1FJkTN54Et8TkbRmL34HSr",
+      "tier": "chain"
+    },
+    {
+      "pubkey": "FoCQL5Mv1TdbeAXMQB92Y6fochiKWhR2SNVvo4mV1Vq2",
+      "tier": "dapp",
+      "dapp": "romedefi"
+    },
+    {
+      "pubkey": "9QKTK7CEucrBM4ZnUTzkBA1ZQXmXDouwcib1FQcF5iTp",
+      "tier": "dapp",
+      "dapp": "comet"
+    },
+    {
+      "pubkey": "7usHsiw4FVMwAPHEt2LCK2LJti7RB6wUWWYv6PDyWQFy",
+      "tier": "dapp",
+      "dapp": "rome-dex"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@rome-protocol/registry",
+  "version": "0.1.0",
+  "description": "Public Rome chain metadata — chains, tokens, contracts, oracle feeds, ALTs, app deployments, and Solana program ids. A read-only, generated projection of Rome's canonical registry.",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "chains",
+    "apps",
+    "solana",
+    "AGENTS.md"
+  ],
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": ["rome", "solana", "evm", "cross-vm", "interop", "registry", "chains"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rome-protocol/rome-registry.git"
+  },
+  "homepage": "https://github.com/rome-protocol/rome-registry",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "vitest": "^3"
+  }
+}
