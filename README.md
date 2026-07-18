@@ -6,9 +6,21 @@ This package is a **generated, read-only projection** of Rome's registry — eve
 
 ## Install
 
+Consume this repo directly, pinned to a release tag (or a commit SHA):
+
 ```
-npm install @rome-protocol/registry
+npm install github:rome-protocol/rome-registry#v0.1.0
 ```
+
+The package name stays `@rome-protocol/registry`, so imports are unchanged. Your lockfile pins the resolved commit; upgrade by bumping the tag. Release tags here are immutable.
+
+For runtime fetch (browser, no install) use the jsDelivr CDN:
+
+```
+https://cdn.jsdelivr.net/gh/rome-protocol/rome-registry@v0.1.0/chains/200010-hadrian/chain.json
+```
+
+The repo is the canonical channel; an npm-registry publish may follow later.
 
 ## Usage
 

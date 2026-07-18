@@ -1,24 +1,32 @@
+# Conformance CI — proves the repo installs, tests green, and every host on the
+# public surface is on the allowlist (scripts/lint-public-surface.mjs).
+# Secret scanning is handled by GitHub's native, always-on secret scanning +
+# push protection (free on public repos) plus CodeQL — no self-hosted scanner
+# job here (gitleaks-action requires a paid license for organizations).
 name: CI
 
 on:
   push:
     branches: [main]
   pull_request:
+  schedule:
+    - cron: "0 6 * * 1" # weekly re-check — a public repo never goes unverified
 
 permissions:
   contents: read
 
-# Secret scanning is handled by GitHub's native, always-on secret scanning +
-# push protection (free on public repos) plus CodeQL — no self-hosted scanner
-# job here (gitleaks-action requires a paid license for organizations).
-
 jobs:
-  test:
+  conformance:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20, 22]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: ${{ matrix.node }}
       - run: npm ci
+      - run: node --check index.mjs
       - run: npm test
+      - run: node scripts/lint-public-surface.mjs
