@@ -42,4 +42,4 @@ Agent-native tooling is in progress and will be announced when it ships:
 - **`doctor`** — a self-check (RPC config, `submitRomeTx` compliance, ALT needs, both-lane devnet smoke).
 - **`create-rome-app`** — a scaffold with a runnable funded end-to-end harness (fund → deploy → wrap → CPI-swap → assert).
 
-Until then, follow the rules above and consume **`@rome-protocol/registry`** directly.
+Until then, follow the rules above and consume **`@rome-protocol/registry`** directly from this repo (pinned install — see the README).
