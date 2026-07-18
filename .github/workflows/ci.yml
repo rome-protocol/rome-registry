@@ -4,11 +4,13 @@ on:
   push:
     branches: [main]
   pull_request:
-  schedule:
-    - cron: "0 6 * * 1" # weekly re-scan — a public repo should never go unscanned
 
 permissions:
   contents: read
+
+# Secret scanning is handled by GitHub's native, always-on secret scanning +
+# push protection (free on public repos) plus CodeQL — no self-hosted scanner
+# job here (gitleaks-action requires a paid license for organizations).
 
 jobs:
   test:
@@ -20,14 +22,3 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm test
-
-  secret-scan:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: gitleaks
-        uses: gitleaks/gitleaks-action@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
