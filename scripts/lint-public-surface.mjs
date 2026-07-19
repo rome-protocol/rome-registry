@@ -20,6 +20,7 @@ const EXACT = new Set([
   "github.com",
   "cdn.jsdelivr.net",
   "registry.npmjs.org",
+  "docs.rome.builders",
   // third-party testnet endpoints referenced by bridge.json
   "amoy.polygonscan.com",
   "api.avax-test.network",

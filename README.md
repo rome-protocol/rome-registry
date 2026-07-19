@@ -1,5 +1,7 @@
 # @rome-protocol/registry
 
+> **Built on [Rome Protocol](https://docs.rome.builders)** — EVM chains that run natively inside the Solana runtime, where Solidity apps call Solana programs atomically (CPI) and Solana users drive EVM apps: two VMs, one chain, one block.
+
 Public chain metadata for [Rome](https://github.com/rome-protocol) — the canonical, machine-readable source for chain ids, RPC URLs, contract addresses, token catalogs, oracle feeds, Address Lookup Tables, app deployments, and Solana program ids. **Read it instead of hardcoding these values** in your app; they drift across deploys.
 
 This package is a **generated, read-only projection** of Rome's registry — every field is public-safe by construction (an allowlist generator emits only what's meant to be public, substitutes internal endpoints for their public equivalents, and default-denies everything else). Do not hand-edit; changes come from the generator.
