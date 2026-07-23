@@ -33,7 +33,7 @@ const hadrian = getChain(200010);
 // → { chainId, name, network, rpcUrl, explorerUrl, romeEvmProgramId,
 //     nativeCurrency, solana: { cluster, explorerUrl, rpc } }
 
-const rpc = hadrian.rpcUrl;                 // the public L2 RPC
+const rpc = hadrian.rpcUrl;                 // the chain's public RPC
 const solanaRpc = hadrian.solana.rpc;       // a public Solana RPC for this chain's cluster
 
 const tokens = getTokens(200010);           // gas token + wrapped assets (wUSDC/wETH/wSOL/…)
@@ -59,7 +59,7 @@ const programs = getPrograms("devnet");     // name → Solana program id
 
 ## Published chains
 
-The registry publishes Rome's public showcase chains. Each carries a public L2 RPC and a public Solana RPC for its cluster.
+The registry publishes Rome's public showcase chains. Each carries a public RPC and a public Solana RPC for its cluster.
 
 ## Building on Rome with an AI agent?
 
