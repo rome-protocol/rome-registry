@@ -2,6 +2,11 @@
 
 > **Built on [Rome Protocol](https://docs.rome.builders)** — EVM chains that run natively inside the Solana runtime, where Solidity apps call Solana programs atomically (CPI) and Solana users drive EVM apps: two VMs, one chain, one block.
 
+
+- **Single state** — EVM contracts and Solana programs share one state; no bridging or sync delay.
+- **Atomic CPI access** — Solidity calls any Solana program directly (SPL Token, Meteora, …) inside one atomic transaction.
+- **App Sovereignty** — each app runs its own EVM chain with a custom gas token and captures its own fee revenue.
+
 Public chain metadata for [Rome](https://github.com/rome-protocol) — the canonical, machine-readable source for chain ids, RPC URLs, contract addresses, token catalogs, oracle feeds, Address Lookup Tables, app deployments, and Solana program ids. **Read it instead of hardcoding these values** in your app; they drift across deploys.
 
 This package is a **generated, read-only projection** of Rome's registry — every field is public-safe by construction (an allowlist generator emits only what's meant to be public, substitutes internal endpoints for their public equivalents, and default-denies everything else). Do not hand-edit; changes come from the generator.
