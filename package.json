@@ -28,6 +28,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "vitest": "^3"
+    "vitest": "^4"
   }
 }
