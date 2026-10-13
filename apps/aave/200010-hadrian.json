@@ -1,37 +1,31 @@
 {
   "chainId": 200010,
   "chainSlug": "hadrian",
-  "pool": "0x54701445dD60E29152eD7B4d78e4091c7678c58C",
-  "addressesProvider": "0x72329174d4d8c557C43D1c3eA9EEe74f15598473",
-  "uiPoolDataProviderV3": "0xc31aC4A9B378c3010fA5af4aD9AA30B1A8f16b94",
-  "poolConfigurator": "0x8bc4d597153188317f3Ec175f546efdAe497c037",
-  "aclManager": "0xd71B29F17861dE5a67551B494Dbd2eC2438bB87f",
-  "oracle": "0xf58f7acF30cc92217881C7b91dcF6d027b8E38EF",
-  "poolDataProvider": "0xd06528561115fdaeED8E1b066B589469EB5fE6Fb",
+  "pool": "0x81e7e7e4cBC2b5a55C2dE1d3dFCf87C0cF867520",
+  "addressesProvider": "0x8f40D56ffAA473120177c65FC5EE431b22353CD4",
+  "uiPoolDataProviderV3": "0xd5C1348e15543A04e6A10303429F75d1ddeFD152",
+  "poolConfigurator": "0x1186549d0E2308579337ff064B2C5865F416d01F",
+  "aclManager": "0x15Ef778f6399Ae984cc2A816afE76e30bd9e14D0",
+  "oracle": "0x4736549aB02e6c6b7083b7625464368E203287E4",
+  "poolDataProvider": "0x79b627B56252468FD53d6F2d7C572Ea969dCC10D",
   "reserves": [
     {
-      "underlying": "0xd4cc34b67c805d472b5a709a22a1037f6b16ef28",
+      "underlying": "0xbce339ba4c3a8de3bb8af1c5539e6ac11da3112d",
       "displaySymbol": "USDC",
       "decimals": 6,
       "symbol": "wUSDC"
     },
     {
-      "underlying": "0x8c2c1486cadf7d07312908a065f14af65f56be7e",
+      "underlying": "0x02aeace038269f9961c93d04dcacd6fb3adfa55f",
       "displaySymbol": "ETH",
       "decimals": 8,
       "symbol": "wETH"
     },
     {
-      "underlying": "0x1dece035621c65a90349b56a801068b439fa4201",
+      "underlying": "0x39f36444fcb79b3e691544aee2a832ebef54ca9f",
       "displaySymbol": "SOL",
       "decimals": 9,
       "symbol": "wSOL"
-    },
-    {
-      "underlying": "0x1ae3f6327a919c33ebb7590df3d14e3f222f2b04",
-      "displaySymbol": "JitoSOL",
-      "decimals": 9,
-      "symbol": "wJitoSOL"
     }
   ],
   "ux": {

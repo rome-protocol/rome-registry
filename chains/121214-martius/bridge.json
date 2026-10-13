@@ -11,6 +11,8 @@
     "cctpTokenMessengerV2": "0x8FE6B999Dc680CcFDD5Bf7EB0974218be2542DAA",
     "cctpMessageTransmitter": "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD",
     "cctpMessageTransmitterV2": "0xE737e5cEBEEBa77EFE34D4aa090756590b1CE275",
+    "wormholeChainId": 10002,
+    "wormholeCoreBridge": "0x4a8bc80Ed5a4067f1CCf107057b8270E0cC11A78",
     "wormholeTokenBridge": "0xDB5492265f6038831E89f495670FF909aDe94bd9"
   },
   "sourceEvms": [
