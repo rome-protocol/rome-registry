@@ -24,6 +24,20 @@
       "pubkey": "CHUrjYgXPDca7Hw4eKiVt4eQFSG3hMdU1hR1wVikEJpt",
       "tier": "dapp",
       "dapp": "aave"
+    },
+    {
+      "pubkey": "9g7bKXzF9n1x56ZFamvTBRmDaJcvc3Qc9rksMGkUwhKM",
+      "tier": "dapp"
+    },
+    {
+      "pubkey": "FK4YVGwFrJW12Utv5ACaySLDs6gJuBSrBQtRMGvr4iUW",
+      "tier": "dapp",
+      "dapp": "permissioned-pools"
+    },
+    {
+      "pubkey": "7HczhHgtbzxr4rS4hwrR25TqSZr5TGL3PtCLYcsPH7Pv",
+      "tier": "dapp",
+      "dapp": "book"
     }
   ]
 }

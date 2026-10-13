@@ -3,9 +3,14 @@
     "name": "ERC20SPLFactory",
     "versions": [
       {
+        "address": "0x62B24fFAf2cEfDCFE4C8783C88e665154b3E8c09",
+        "version": "7.0.0",
+        "status": "deprecated"
+      },
+      {
         "address": "0x86149124d74ebb3aa41a19641b700e88202b6285",
         "version": "6.0.0",
-        "status": "live"
+        "status": "retired"
       },
       {
         "address": "0x51f0694aa0c47bd3e9a8c0bf68a35bd6d2738302",
@@ -31,6 +36,16 @@
         "address": "0xf4504274e1a383146c39935bd5eff2edbb193c37",
         "version": "1.0.0",
         "status": "retired"
+      },
+      {
+        "address": "0x36a9b09dd8a2080330818d1bc917e6af21781f9f",
+        "version": "8.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0x37c13e4ff21fb914eb24014dcbd0f8dbeaa31078",
+        "version": "9.0.0",
+        "status": "live"
       }
     ]
   },
@@ -60,7 +75,7 @@
       {
         "address": "0x65fc94ba1045b65889f0b27d3d02e5bfbc2aee03",
         "version": "9.0.0",
-        "status": "live"
+        "status": "deprecated"
       },
       {
         "address": "0xd2161cd539c20f0cb1cbf5bf9a8456cd16c9034f",
@@ -96,6 +111,21 @@
         "address": "0xf48902e4a30f5d9b93dd0a9c0c0ab379ce37587c",
         "version": "2.0.0",
         "status": "retired"
+      },
+      {
+        "address": "0x49e5b8d7728472ee9bfeb591d498319d68386b89",
+        "version": "10.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0x65f6e106787741aeda16e3fd48635f2a195b1271",
+        "version": "11.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0x6eeacb4e6006b7a29c8141f69b6c75346dedec73",
+        "version": "12.0.0",
+        "status": "live"
       }
     ]
   },
@@ -103,9 +133,14 @@
     "name": "OracleAdapterFactory",
     "versions": [
       {
+        "address": "0x52b008771fc95b4674a4f3533570b3d223f27f68",
+        "version": "5.0.0",
+        "status": "live"
+      },
+      {
         "address": "0xe68e7bc697010c73f1798b356f8ae2f0ba1319db",
         "version": "4.0.0",
-        "status": "live"
+        "status": "deprecated"
       },
       {
         "address": "0x9be249718c5c066d98fead6bfbb214ca0787f870",
@@ -128,9 +163,14 @@
     "name": "PythPullAdapterImpl",
     "versions": [
       {
+        "address": "0x0c9989056acf0ec225f9968e5369dea368a7c044",
+        "version": "5.0.0",
+        "status": "live"
+      },
+      {
         "address": "0x2bf3660f61b88b4c55a492b61fc98834a212f3f3",
         "version": "4.0.0",
-        "status": "live"
+        "status": "deprecated"
       },
       {
         "address": "0xea0bc9643c462fafc470873f85ee57d1ac2bbcaf",
@@ -153,9 +193,14 @@
     "name": "SwitchboardV3AdapterImpl",
     "versions": [
       {
+        "address": "0xcdcca98e7d2087447d6ceeb764478903476ae355",
+        "version": "5.0.0",
+        "status": "live"
+      },
+      {
         "address": "0x12e2961bde486b69910c64d802a09aae9dee8e7d",
         "version": "4.0.0",
-        "status": "live"
+        "status": "deprecated"
       },
       {
         "address": "0x43cbe9c67e35c7f401fa76d8ce06595e004d2a63",
@@ -178,9 +223,14 @@
     "name": "BatchReader",
     "versions": [
       {
+        "address": "0x2869f0a96572e7fb15036656e9a32fd17346499b",
+        "version": "5.0.0",
+        "status": "live"
+      },
+      {
         "address": "0x306d670dff7f51ae33f263f5122bd2b18d98adc7",
         "version": "4.0.0",
-        "status": "live"
+        "status": "deprecated"
       },
       {
         "address": "0xc1224fe8d9eaeef34376ff4b24db360d5e10163e",
@@ -248,9 +298,14 @@
     "name": "WrappedRSOL",
     "versions": [
       {
+        "address": "0x628799d11c37aEad17e3B6b7F4C90239c422AdbA",
+        "version": "4.0.0",
+        "status": "live"
+      },
+      {
         "address": "0x1932E62Fc65B2C9ECA94D1439d72214007035a1b",
         "version": "3.0.0",
-        "status": "live"
+        "status": "retired"
       },
       {
         "address": "0xbc899af4cb358a18b1218cccf66aa176605ee2af",
@@ -288,9 +343,14 @@
     "name": "UniswapV2Factory",
     "versions": [
       {
+        "address": "0x0aE3020964F67c8bA26Cf3dd0589078d3af82572",
+        "version": "6.0.0",
+        "status": "live"
+      },
+      {
         "address": "0xbFBcC5601A55582093Df98ea555265BdC9421Ea9",
         "version": "5.0.0",
-        "status": "live"
+        "status": "retired"
       },
       {
         "address": "0x820EEeF0ED21e2Ecf8f065DDA05488A0ea153b7b",
@@ -318,9 +378,14 @@
     "name": "UniswapV2Router02",
     "versions": [
       {
+        "address": "0x2e24F6cb4d072d38b60966Fb04e698E949717B8c",
+        "version": "6.0.0",
+        "status": "live"
+      },
+      {
         "address": "0xe98268690DF651b355fDc3E4dbfCFD51454c0089",
         "version": "5.0.0",
-        "status": "live"
+        "status": "retired"
       },
       {
         "address": "0xC9EeCF17449D51636F69F9e892844796339BE84f",
@@ -363,9 +428,14 @@
     "name": "ERC20Factory",
     "versions": [
       {
+        "address": "0x19054EE7567B8Be49f43a562C25a6d584937A93A",
+        "version": "4.0.0",
+        "status": "live"
+      },
+      {
         "address": "0x22e4A9191Bb5e7dD211c42A4d480879E603db6c1",
         "version": "3.0.0",
-        "status": "live"
+        "status": "retired"
       },
       {
         "address": "0x3fd3045c879cfa213e61a1e0eff89f498a568522",
@@ -511,6 +581,11 @@
         "address": "0xE06bFcfDe7b5425fCFC4D6eC392150DC75bF50e4",
         "version": "1.0.0",
         "status": "retired"
+      },
+      {
+        "address": "0x8f40d56ffaa473120177c65fc5ee431b22353cd4",
+        "version": "2.0.0",
+        "status": "live"
       }
     ]
   },
@@ -526,6 +601,11 @@
         "address": "0x6F80aC2aD821333FE16e12228841A95Ab56b080a",
         "version": "1.0.0",
         "status": "retired"
+      },
+      {
+        "address": "0x15ef778f6399ae984cc2a816afe76e30bd9e14d0",
+        "version": "2.0.0",
+        "status": "live"
       }
     ]
   },
@@ -541,6 +621,11 @@
         "address": "0x9352FBc7D4165ADE9422a62087DdD79595B6f521",
         "version": "1.0.0",
         "status": "retired"
+      },
+      {
+        "address": "0x81e7e7e4cbc2b5a55c2de1d3dfcf87c0cf867520",
+        "version": "2.0.0",
+        "status": "live"
       }
     ]
   },
@@ -556,6 +641,11 @@
         "address": "0x62121cF2ee89DA281cE2c56b04c5B7F95a471DA7",
         "version": "1.0.0",
         "status": "retired"
+      },
+      {
+        "address": "0x1186549d0e2308579337ff064b2c5865f416d01f",
+        "version": "2.0.0",
+        "status": "live"
       }
     ]
   },
@@ -571,6 +661,11 @@
         "address": "0x3A467E30a0d12b793F21541965f76691E0Bd4B32",
         "version": "1.0.0",
         "status": "retired"
+      },
+      {
+        "address": "0x4736549ab02e6c6b7083b7625464368e203287e4",
+        "version": "2.0.0",
+        "status": "live"
       }
     ]
   },
@@ -586,6 +681,11 @@
         "address": "0x1F6cD261ca60B595E1494782B49EDE4F33FbD775",
         "version": "1.0.0",
         "status": "retired"
+      },
+      {
+        "address": "0x79b627b56252468fd53d6f2d7c572ea969dcc10d",
+        "version": "2.0.0",
+        "status": "live"
       }
     ]
   },
@@ -601,6 +701,11 @@
         "address": "0x3DcE894f46e5d8736cC84e51B4F6520577697c8e",
         "version": "1.0.0",
         "status": "retired"
+      },
+      {
+        "address": "0xb0a1f16c6a4254bf41bd6c972a0abc223ba61297",
+        "version": "2.0.0",
+        "status": "live"
       }
     ]
   },
@@ -610,7 +715,7 @@
       {
         "address": "0xc8b14eA508d5d4a542cE3d099d11Ce4bD296cc42",
         "version": "1.0.0",
-        "status": "live"
+        "status": "retired"
       }
     ]
   },
@@ -620,7 +725,7 @@
       {
         "address": "0x95A0F06deF3067e2D16cCC7C45a7C9E8CA50CEAE",
         "version": "1.0.0",
-        "status": "live"
+        "status": "retired"
       }
     ]
   },
@@ -630,7 +735,7 @@
       {
         "address": "0x1c88f3FA4CA22612ce5CCbe3Aa6053B9516831fd",
         "version": "1.0.0",
-        "status": "live"
+        "status": "retired"
       }
     ]
   },
