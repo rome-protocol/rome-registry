@@ -16,7 +16,7 @@ This package is a **generated, read-only projection** of Rome's registry — eve
 Consume this repo directly, pinned to a release tag (or a commit SHA):
 
 ```
-npm install github:rome-protocol/rome-registry#v0.1.0
+npm install github:rome-protocol/rome-registry#v0.2.0
 ```
 
 The package name stays `@rome-protocol/registry`, so imports are unchanged. Your lockfile pins the resolved commit; upgrade by bumping the tag. Release tags here are immutable.
