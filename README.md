@@ -69,10 +69,10 @@ The registry publishes Rome's public showcase chains. Each carries a public RPC 
 | Chain | Chain id | Folder |
 |---|---|---|
 | Rome Rubicon (mainnet) | 7531 | `chains/7531-rubicon` |
-| Rome Hadrian (test chain) | 200010 | `chains/200010-hadrian` |
+| Rome Hadrian (public testnet) | 200010 | `chains/200010-hadrian` |
 | Rome Martius (test chain) | 121214 | `chains/121214-martius` |
 
-Rubicon runs on Solana mainnet, so use `getPrograms("mainnet")` for its program ids. Hadrian and Martius run on Solana devnet.
+Use `getPrograms("mainnet")` for Rubicon and `getPrograms("devnet")` for Hadrian and Martius, matching each chain's Solana cluster. Hadrian is the chain Rome's documentation uses for its examples.
 
 ## Building on Rome with an AI agent?
 
