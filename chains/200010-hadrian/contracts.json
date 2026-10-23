@@ -125,6 +125,11 @@
       {
         "address": "0x6eeacb4e6006b7a29c8141f69b6c75346dedec73",
         "version": "12.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0x0063df044995e6d2f24baea4e9d369babb1ad7bf",
+        "version": "13.0.0",
         "status": "live"
       }
     ]
@@ -824,6 +829,31 @@
     "versions": [
       {
         "address": "0x78346e04192a439ad470908241bb2c78b29b2736",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "RomeDexRouter",
+    "versions": [
+      {
+        "address": "0xF78cc8B035a4dD2c8e0D914462a80AD04ADC51EC",
+        "version": "2.0.0",
+        "status": "live"
+      },
+      {
+        "address": "0xcC7729607188918288203494819294B3f0E301a5",
+        "version": "1.0.0",
+        "status": "retired"
+      }
+    ]
+  },
+  {
+    "name": "RomeClmmRouter",
+    "versions": [
+      {
+        "address": "0x654E2aD87df91ea61e3EAB054e56460A176A7eB5",
         "version": "1.0.0",
         "status": "live"
       }

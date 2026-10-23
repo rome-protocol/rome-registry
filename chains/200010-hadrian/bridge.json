@@ -71,6 +71,17 @@
       "cctpTokenMessenger": "0x8FE6B999Dc680CcFDD5Bf7EB0974218be2542DAA",
       "cctpTokenMessengerV2": "0x8FE6B999Dc680CcFDD5Bf7EB0974218be2542DAA",
       "cctpMessageTransmitter": "0xE737e5cEBEEBa77EFE34D4aa090756590b1CE275"
+    },
+    {
+      "chainId": 11155420,
+      "name": "OP Sepolia",
+      "rpcUrl": "https://sepolia.optimism.io",
+      "explorerUrl": "https://sepolia-optimism.etherscan.io",
+      "cctpDomain": 2,
+      "cctpVersion": 2,
+      "cctpTokenMessenger": "0x8FE6B999Dc680CcFDD5Bf7EB0974218be2542DAA",
+      "cctpTokenMessengerV2": "0x8FE6B999Dc680CcFDD5Bf7EB0974218be2542DAA",
+      "cctpMessageTransmitter": "0xE737e5cEBEEBa77EFE34D4aa090756590b1CE275"
     }
   ],
   "solana": {
@@ -155,6 +166,17 @@
       "solanaMint": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
       "sourceEvm": {
         "address": "0x5425890298aed601595a70AB815c96711a31Bc65",
+        "protocol": "cctp"
+      }
+    },
+    {
+      "id": "usdc-op-sepolia",
+      "symbol": "USDC",
+      "name": "USD Coin (from OP Sepolia)",
+      "decimals": 6,
+      "solanaMint": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "sourceEvm": {
+        "address": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7",
         "protocol": "cctp"
       }
     }

@@ -1,0 +1,180 @@
+{
+  "cctpIrisApiBase": "https://iris-api.circle.com",
+  "sourceEvm": {
+    "chainId": 1,
+    "name": "Ethereum",
+    "rpcUrl": "https://ethereum-rpc.publicnode.com",
+    "cctpDomain": 0,
+    "cctpVersion": 2,
+    "cctpTokenMessenger": "0xBd3fa81B58Ba92a82136038B25aDec7066af3155",
+    "cctpTokenMessengerV2": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+    "cctpMessageTransmitter": "0x0a992d191DEeC32aFe36203Ad87D7d289a738F81",
+    "cctpMessageTransmitterV2": "0x81D40F21F12A8F0E3252Bccb954D722d4c464B64",
+    "wormholeTokenBridge": "0x3ee18B2214AFF97000D974cf647E54B6f4ABc283"
+  },
+  "sourceEvms": [
+    {
+      "chainId": 8453,
+      "name": "Base",
+      "rpcUrl": "https://mainnet.base.org",
+      "explorerUrl": "https://basescan.org",
+      "cctpDomain": 6,
+      "cctpVersion": 2,
+      "cctpTokenMessenger": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+      "cctpTokenMessengerV2": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+      "cctpMessageTransmitter": "0x81D40F21F12A8F0E3252Bccb954D722d4c464B64"
+    },
+    {
+      "chainId": 42161,
+      "name": "Arbitrum",
+      "rpcUrl": "https://arb1.arbitrum.io/rpc",
+      "explorerUrl": "https://arbiscan.io",
+      "cctpDomain": 3,
+      "cctpVersion": 2,
+      "cctpTokenMessenger": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+      "cctpTokenMessengerV2": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+      "cctpMessageTransmitter": "0x81D40F21F12A8F0E3252Bccb954D722d4c464B64"
+    },
+    {
+      "chainId": 137,
+      "name": "Polygon",
+      "rpcUrl": "https://polygon-bor-rpc.publicnode.com",
+      "explorerUrl": "https://polygonscan.com",
+      "cctpDomain": 7,
+      "cctpVersion": 2,
+      "cctpTokenMessenger": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+      "cctpTokenMessengerV2": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+      "cctpMessageTransmitter": "0x81D40F21F12A8F0E3252Bccb954D722d4c464B64"
+    },
+    {
+      "chainId": 43114,
+      "name": "Avalanche",
+      "rpcUrl": "https://api.avax.network/ext/bc/C/rpc",
+      "explorerUrl": "https://snowtrace.io",
+      "cctpDomain": 1,
+      "cctpVersion": 2,
+      "cctpTokenMessenger": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+      "cctpTokenMessengerV2": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+      "cctpMessageTransmitter": "0x81D40F21F12A8F0E3252Bccb954D722d4c464B64"
+    },
+    {
+      "chainId": 143,
+      "name": "Monad",
+      "rpcUrl": "https://rpc.monad.xyz",
+      "explorerUrl": "https://monadvision.com",
+      "cctpDomain": 15,
+      "cctpVersion": 2,
+      "cctpTokenMessenger": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+      "cctpTokenMessengerV2": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+      "cctpMessageTransmitter": "0x81D40F21F12A8F0E3252Bccb954D722d4c464B64"
+    },
+    {
+      "chainId": 10,
+      "name": "OP Mainnet",
+      "rpcUrl": "https://mainnet.optimism.io",
+      "explorerUrl": "https://optimistic.etherscan.io",
+      "cctpDomain": 2,
+      "cctpVersion": 2,
+      "cctpTokenMessenger": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+      "cctpTokenMessengerV2": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d",
+      "cctpMessageTransmitter": "0x81D40F21F12A8F0E3252Bccb954D722d4c464B64"
+    }
+  ],
+  "solana": {
+    "cctpDomain": 5,
+    "cctpMessageTransmitterProgram": "CCTPmbSD7gX1bxKPAmg77w8oFzNFpaQiQUWD43TKaecd",
+    "cctpMessageTransmitterProgramV2": "CCTPV2Sm4AdWt5296sk4P66VBZ7bEhcARwFaaS9YPbeC",
+    "cctpTokenMessengerMinterProgram": "CCTPiPYPc6AsJuwueEnWgSgucamXDZwBd53dQ11YiKX3",
+    "cctpTokenMessengerMinterProgramV2": "CCTPV2vPZJS2u2BBsUoscuikbYjnpFmbFsvVuJdgUMQe"
+  },
+  "assets": [
+    {
+      "id": "usdc",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "solanaMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "sourceEvm": {
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "protocol": "cctp"
+      }
+    },
+    {
+      "id": "eth",
+      "symbol": "ETH",
+      "name": "Wrapped Ether",
+      "decimals": 8,
+      "solanaMint": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+      "sourceEvm": {
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "protocol": "wormhole"
+      }
+    },
+    {
+      "id": "usdc-base",
+      "symbol": "USDC",
+      "name": "USD Coin (from Base)",
+      "decimals": 6,
+      "solanaMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "sourceEvm": {
+        "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "protocol": "cctp"
+      }
+    },
+    {
+      "id": "usdc-arbitrum",
+      "symbol": "USDC",
+      "name": "USD Coin (from Arbitrum)",
+      "decimals": 6,
+      "solanaMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "sourceEvm": {
+        "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "protocol": "cctp"
+      }
+    },
+    {
+      "id": "usdc-polygon",
+      "symbol": "USDC",
+      "name": "USD Coin (from Polygon)",
+      "decimals": 6,
+      "solanaMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "sourceEvm": {
+        "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+        "protocol": "cctp"
+      }
+    },
+    {
+      "id": "usdc-avax",
+      "symbol": "USDC",
+      "name": "USD Coin (from Avalanche)",
+      "decimals": 6,
+      "solanaMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "sourceEvm": {
+        "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "protocol": "cctp"
+      }
+    },
+    {
+      "id": "usdc-monad",
+      "symbol": "USDC",
+      "name": "USD Coin (from Monad)",
+      "decimals": 6,
+      "solanaMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "sourceEvm": {
+        "address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "protocol": "cctp"
+      }
+    },
+    {
+      "id": "usdc-op",
+      "symbol": "USDC",
+      "name": "USD Coin (from OP Mainnet)",
+      "decimals": 6,
+      "solanaMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "sourceEvm": {
+        "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+        "protocol": "cctp"
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "@rome-protocol/registry",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Public Rome chain metadata — chains, tokens, contracts, oracle feeds, ALTs, app deployments, and Solana program ids. A read-only, generated projection of Rome's canonical registry.",
   "type": "module",
   "main": "index.mjs",

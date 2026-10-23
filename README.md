@@ -16,7 +16,7 @@ This package is a **generated, read-only projection** of Rome's registry — eve
 Consume this repo directly, pinned to a release tag (or a commit SHA):
 
 ```
-npm install github:rome-protocol/rome-registry#v0.2.0
+npm install github:rome-protocol/rome-registry#v0.3.0
 ```
 
 The package name stays `@rome-protocol/registry`, so imports are unchanged. Your lockfile pins the resolved commit; upgrade by bumping the tag. Release tags here are immutable.
@@ -24,7 +24,7 @@ The package name stays `@rome-protocol/registry`, so imports are unchanged. Your
 For runtime fetch (browser, no install) use the jsDelivr CDN:
 
 ```
-https://cdn.jsdelivr.net/gh/rome-protocol/rome-registry@v0.1.0/chains/200010-hadrian/chain.json
+https://cdn.jsdelivr.net/gh/rome-protocol/rome-registry@v0.3.0/chains/200010-hadrian/chain.json
 ```
 
 The repo is the canonical channel; an npm-registry publish may follow later.
@@ -65,6 +65,14 @@ const programs = getPrograms("devnet");     // name → Solana program id
 ## Published chains
 
 The registry publishes Rome's public showcase chains. Each carries a public RPC and a public Solana RPC for its cluster.
+
+| Chain | Chain id | Folder |
+|---|---|---|
+| Rome Rubicon (mainnet) | 7531 | `chains/7531-rubicon` |
+| Rome Hadrian (test chain) | 200010 | `chains/200010-hadrian` |
+| Rome Martius (test chain) | 121214 | `chains/121214-martius` |
+
+Rubicon runs on Solana mainnet, so use `getPrograms("mainnet")` for its program ids. Hadrian and Martius run on Solana devnet.
 
 ## Building on Rome with an AI agent?
 

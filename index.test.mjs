@@ -10,8 +10,8 @@ import {
 } from "./index.mjs";
 
 describe("@rome-protocol/registry — consumer API over the public data", () => {
-  it("listChains returns exactly the published showcase chains (Hadrian + Martius)", () => {
-    expect(listChains().map((c) => c.chainId).sort((a, b) => a - b)).toEqual([121214, 200010]);
+  it("listChains returns exactly the published showcase chains (Hadrian, Martius, Rubicon)", () => {
+    expect(listChains().map((c) => c.chainId).sort((a, b) => a - b)).toEqual([7531, 121214, 200010]);
   });
 
   it("getChain(200010) is Hadrian with a PUBLIC Solana RPC and no internal host", () => {

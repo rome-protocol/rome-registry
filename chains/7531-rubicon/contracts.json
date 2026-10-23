@@ -1,0 +1,397 @@
+[
+  {
+    "name": "ERC20SPLFactory",
+    "versions": [
+      {
+        "address": "0x888a485a8338b52f1d24742cb0d98a557f845409",
+        "version": "1.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0xe0501c6c524fea785044a0d1730dec983e34f984",
+        "version": "2.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0x4068aa7482dc15e9f78e22fbe0f884531c83ae6e",
+        "version": "3.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "ERC20Users",
+    "versions": [
+      {
+        "address": "0x36ae2e5d76bb48e38c192a899c69c9a7525dddb9",
+        "version": "1.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0xd3649e5125d773a64b2359a636bc0a74a22b9d50",
+        "version": "2.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0x30f17f0f738274437bf1bcabb32ad76fbc7b8fe7",
+        "version": "3.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "SPL_ERC20_USDC",
+    "versions": [
+      {
+        "address": "0x32e0bb5b8e02e5b6785a50c9a1bbd84055053e47",
+        "version": "1.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0x0952d233b0c254cd375f3bfb3e5869c1a906f9b3",
+        "version": "2.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "SPL_ERC20_WETH",
+    "versions": [
+      {
+        "address": "0x8650272346acb0dec6faa5fca1b01a8ebbb20fb9",
+        "version": "1.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0x01e8b3573da1d4b7b4b1ce0932cf07c8af0c92e9",
+        "version": "2.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "SPL_ERC20_WSOL",
+    "versions": [
+      {
+        "address": "0x3baa6489b2cb80ab78fe0773ea536a37132c7f18",
+        "version": "1.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0xc4e29e0f726a906e93277cbbc37bf27a9848a113",
+        "version": "2.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "RomeBridgeWithdraw",
+    "versions": [
+      {
+        "address": "0xbf02eab4d25154f86f11d4ce21af0fdb4c3a5d84",
+        "version": "1.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0xceea191761cdba2fc589996d7dd096e57db29c84",
+        "version": "12.0.0",
+        "status": "deprecated"
+      },
+      {
+        "address": "0xb444197b16972a926638a96bef73a42937b9ce87",
+        "version": "13.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "SPL_ERC20_WSOL_V9",
+    "versions": [
+      {
+        "address": "0xe9716ef69e3f86ad3b68d2c63375a32a2d83e378",
+        "version": "1.0.0",
+        "status": "retired"
+      }
+    ]
+  },
+  {
+    "name": "SPL_ERC20_WETH_V9",
+    "versions": [
+      {
+        "address": "0x5023aa0a484700f7183b7422be83203ab5da023a",
+        "version": "1.0.0",
+        "status": "retired"
+      }
+    ]
+  },
+  {
+    "name": "BatchReader",
+    "versions": [
+      {
+        "address": "0x580dc0ecb226530ee8a90b57e0f0cd2555fb4f0f",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "OracleAdapterFactory",
+    "versions": [
+      {
+        "address": "0x6a1340dd86c3951b6f13d9001b3951d56a2fe581",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "PythPullAdapterImpl",
+    "versions": [
+      {
+        "address": "0xcaa8748bf6cce1b172fd7ec0ffcede6422d0c295",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "SwitchboardV3AdapterImpl",
+    "versions": [
+      {
+        "address": "0x34fc806cab46e8b0eefb5bb0f32abec04f3b0a0a",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "CachedPythAdapterImpl",
+    "versions": [
+      {
+        "address": "0xe59caf8049522e8a44c201f6e5ff252d3c98ecfa",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "CachedFeedAdapterImpl",
+    "versions": [
+      {
+        "address": "0x7e14f5be8b9078aed37f80c7b0161efad66fc022",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "WETH9",
+    "versions": [
+      {
+        "address": "0x8dc8bf908efa4511f71a9e2ed95f46a70507f1ae",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "Multicall3",
+    "versions": [
+      {
+        "address": "0xd6e0b13ea70aea0d44db083544f01d8b7693a759",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "UniswapV2Factory",
+    "versions": [
+      {
+        "address": "0x23af4d2065d24b42a1a17f22b963c9216d0a1dc2",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "UniswapV2Router",
+    "versions": [
+      {
+        "address": "0x445d7af7888db44a4904b63336cc43446dfb37f7",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "ERC20Factory",
+    "versions": [
+      {
+        "address": "0x7fb172fd4603e96bb5db801c2b282ee1f7768c4d",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "UniswapV3Factory",
+    "versions": [
+      {
+        "address": "0x02aed7762fdc8bae826e7ee0ac2d2e1f754ba025",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "SwapRouter",
+    "versions": [
+      {
+        "address": "0x680b7645c63421e33584a02aca91be6642d3d034",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "NFTDescriptor",
+    "versions": [
+      {
+        "address": "0x0f2a7d08190bd18a57929b766089296cd8649e21",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "NonfungibleTokenPositionDescriptor",
+    "versions": [
+      {
+        "address": "0xa5c419b1188899599e624181f0cd803760ac2cfd",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "NonfungiblePositionManager",
+    "versions": [
+      {
+        "address": "0xfb132adf6b7d811408f3639e91c8f638bddd6123",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "QuoterV2",
+    "versions": [
+      {
+        "address": "0x1d68d09dcc3a8c1b9aa8f0e2b138205c04bad4a7",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "TickLens",
+    "versions": [
+      {
+        "address": "0xbb688bd529181d6a0efdae6b99adda454b306b15",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "V3Migrator",
+    "versions": [
+      {
+        "address": "0x157edb9f9b9e08e59564768163b065324c1589b5",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "PortusKaminoMarket-main",
+    "versions": [
+      {
+        "address": "0x555ecdd194dc268ccf1a7adfe34fb7b02bbc5b2a",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "PortusKaminoMarket-jlp",
+    "versions": [
+      {
+        "address": "0xbd4fc71515fa1657f63c8b46c797f942777989fe",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "PortusKaminoMarket-figure",
+    "versions": [
+      {
+        "address": "0x7e1efbbde773f8fd7948abfa9beb2641b74fb6d5",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "PortusKaminoMarket-onre",
+    "versions": [
+      {
+        "address": "0x3959458d9cbff1cd4ebfa7dad3d2cdd19490a728",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "PortusKaminoMarket-main-polygon",
+    "versions": [
+      {
+        "address": "0xa09694186c4336676504f9c0f57f762c1b9dfda4",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "PortusKaminoMarket-jlp-polygon",
+    "versions": [
+      {
+        "address": "0x5c097a86c1a716e759c01caa5dbe18e7755e1f58",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "PortusKaminoMarket-figure-polygon",
+    "versions": [
+      {
+        "address": "0xca8f6651b777ccb11cab3ed33003dfd187a3a13c",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name": "PortusKaminoMarket-onre-polygon",
+    "versions": [
+      {
+        "address": "0x23ecb738ac5d6f86607f8e330722a65e947bfb6a",
+        "version": "1.0.0",
+        "status": "live"
+      }
+    ]
+  }
+]

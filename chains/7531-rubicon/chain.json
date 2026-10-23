@@ -1,0 +1,18 @@
+{
+  "chainId": 7531,
+  "name": "Rome Rubicon",
+  "network": "mainnet",
+  "status": "live",
+  "rpcUrl": "https://rubicon.mainnet.romeprotocol.xyz/",
+  "explorerUrl": "https://via-rubicon.mainnet.romeprotocol.xyz/",
+  "romeEvmProgramId": "RomePq9X3iAoTr813HR7uRarafFDUJty6GdiEceYpzX",
+  "nativeCurrency": {
+    "name": "Rome Rubicon",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "solana": {
+    "cluster": "mainnet",
+    "rpc": "https://api.mainnet-beta.solana.com"
+  }
+}
