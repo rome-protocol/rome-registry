@@ -1,0 +1,61 @@
+{
+  "factory": "0x6a1340dd86c3951b6f13d9001b3951d56a2fe581",
+  "feeds": {
+    "SOL/USD": {
+      "address": "0xe06E9239C9ccc4B51068009687b62562bcF57E28"
+    },
+    "BTC/USD": {
+      "address": "0x2612f480e9938b5296B00986C832Ae55b38Bf994"
+    },
+    "ETH/USD": {
+      "address": "0x4BFb45C6D7d640dF2A6c4C56e79b4190f025b940"
+    },
+    "USDC/USD": {
+      "address": "0xF81329f5A85DfC962a4DB88235Bf2595A64329Ef"
+    },
+    "SOL/USD-CACHEDPYTH": {
+      "address": "0x9d95d2709A5Ac1B3cdB03B4093C08b40F883C64D",
+      "status": "retired"
+    },
+    "BTC/USD-CACHEDPYTH": {
+      "address": "0xD547fee1a5FA3bE33B28ae943E5Cc4113D3ccCD9",
+      "status": "retired"
+    },
+    "ETH/USD-CACHEDPYTH": {
+      "address": "0x314Dc084D9608b764E0eEAaC2bBcc9435172aEf0",
+      "status": "retired"
+    },
+    "USDC/USD-CACHEDPYTH": {
+      "address": "0x76F3a1627098de21FD03b58E6b7014F71E2aeDd0",
+      "status": "retired"
+    },
+    "SOL/USD-CACHED": {
+      "address": "0x00d3B3698b8249Ad7Ef445011437065c2732Bb3f",
+      "status": "retired"
+    },
+    "BTC/USD-CACHED": {
+      "address": "0x1547A2581180Df9Ff03D2c239273a3E907674239",
+      "status": "retired"
+    },
+    "ETH/USD-CACHED": {
+      "address": "0x3797d49BD5B0eE8E2D0fcf144C797b0e34AB954f",
+      "status": "retired"
+    },
+    "USDC/USD-CACHED": {
+      "address": "0x8f4e081f2049Fd78Df39756A634bc916E22e446e",
+      "status": "retired"
+    },
+    "SOL/USD-BOOK": {
+      "address": "0x5382dD1a9995fc96b0F11AcF964Cf1E9cAf890F2"
+    },
+    "BTC/USD-BOOK": {
+      "address": "0x63724f6D50072bE42DE0724e3b80a827d759e729"
+    },
+    "ETH/USD-BOOK": {
+      "address": "0x233EDe364FDeE39BA2113E7905df3807D64b7D16"
+    },
+    "USDC/USD-BOOK": {
+      "address": "0x66ed8a6BCE30A09A537babD2c1B48919F50309a5"
+    }
+  }
+}

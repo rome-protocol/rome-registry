@@ -36,6 +36,23 @@ const EXACT = new Set([
   "testnet-rpc.monad.xyz",
   "testnet.monadexplorer.com",
   "testnet.snowtrace.io",
+  "sepolia.optimism.io",
+  "sepolia-optimism.etherscan.io",
+  // third-party mainnet endpoints referenced by the Rubicon bridge.json
+  "iris-api.circle.com",
+  "ethereum-rpc.publicnode.com",
+  "mainnet.base.org",
+  "basescan.org",
+  "arb1.arbitrum.io",
+  "arbiscan.io",
+  "polygon-bor-rpc.publicnode.com",
+  "polygonscan.com",
+  "api.avax.network",
+  "snowtrace.io",
+  "rpc.monad.xyz",
+  "monadvision.com",
+  "mainnet.optimism.io",
+  "optimistic.etherscan.io",
 ]);
 const ROME_PUBLIC = /^[a-z0-9-]+\.(testnet|devnet|mainnet)\.romeprotocol\.xyz$/;
 
