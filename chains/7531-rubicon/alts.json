@@ -4,11 +4,6 @@
     {
       "pubkey": "7NQrS8nrKsMhG9vHQxn6qp6MeqEkJkA9kTVucXnhabb2",
       "tier": "chain"
-    },
-    {
-      "pubkey": "DPShibfhFyKAHYyop5TPQiBLpcnEMJpHx1rKFqpMnpbu",
-      "tier": "dapp",
-      "dapp": "romedefi"
     }
   ]
 }
