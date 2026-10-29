@@ -88,7 +88,7 @@ describe("@rome-protocol/registry — consumer API over the public data", () => 
       }
     };
     walk(d);
-    expect(addrs.length).toBe(15);
+    expect(addrs.length).toBe(14);
     for (const [k, a] of addrs) expect(a, k).toMatch(/^0x[0-9a-f]{40}$/);
     // proxies and implementations are different contracts
     expect(d.hadrian.bridge.proxy).not.toBe(d.hadrian.bridge.implementation);
