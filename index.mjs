@@ -50,6 +50,7 @@ const perApp = (proto) => (chainId) => {
 
 export const getCompoundDeployment = perApp("compound");
 export const getAaveDeployment = perApp("aave");
+export const getAgglayerDeployment = perApp("agglayer");
 
 /** @param {"mainnet"|"devnet"} network @returns {Record<string,string>} name→programId. */
 export function getPrograms(network) {

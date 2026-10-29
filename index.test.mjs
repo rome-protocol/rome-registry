@@ -8,6 +8,7 @@ import {
   getAaveDeployment,
   getPrograms,
   getBridge,
+  getAgglayerDeployment,
 } from "./index.mjs";
 
 describe("@rome-protocol/registry — consumer API over the public data", () => {
@@ -66,5 +67,40 @@ describe("@rome-protocol/registry — consumer API over the public data", () => 
   it("Rubicon's bridge does not carry the empty Ethereum Wormhole address", () => {
     // 0x3ee1...c283 has no code on Ethereum; ETH sent there is lost.
     expect(getBridge(7531).sourceEvm).not.toHaveProperty("wormholeTokenBridge");
+  });
+
+  it("getAgglayerDeployment(200010) is Rome's own Stage 1 AggLayer, not Polygon's", () => {
+    const d = getAgglayerDeployment(200010);
+    expect(d.deployment).toBe("stage1-own-agglayer");
+    expect(d.note).toMatch(/NOT Polygon/);
+    expect(d.networkId).toBe(1);
+    expect(d.hadrian.chainId).toBe(200010);
+    expect(d.sepolia.chainId).toBe(11155111);
+  });
+
+  it("every AggLayer address is a well-formed 20-byte address and none repeats by mistake", () => {
+    const d = getAgglayerDeployment(200010);
+    const addrs = [];
+    const walk = (o) => {
+      for (const [k, v] of Object.entries(o)) {
+        if (typeof v === "string" && /^0x/.test(v)) addrs.push([k, v]);
+        else if (v && typeof v === "object") walk(v);
+      }
+    };
+    walk(d);
+    expect(addrs.length).toBe(15);
+    for (const [k, a] of addrs) expect(a, k).toMatch(/^0x[0-9a-f]{40}$/);
+    // proxies and implementations are different contracts
+    expect(d.hadrian.bridge.proxy).not.toBe(d.hadrian.bridge.implementation);
+    expect(d.hadrian.globalExitRootManager.proxy).not.toBe(d.hadrian.globalExitRootManager.implementation);
+    // start blocks are positive integers
+    for (const n of [d.hadrian.bridgeStartBlock, d.hadrian.gerStartBlock, d.sepolia.l1StartBlock, d.sepolia.rollupCreationBlock]) {
+      expect(Number.isInteger(n) && n > 0).toBe(true);
+    }
+    expect(d.sepolia.rollupCreationBlock).toBeGreaterThan(d.sepolia.l1StartBlock);
+  });
+
+  it("getAgglayerDeployment of an unpublished chain returns null", () => {
+    expect(getAgglayerDeployment(999999)).toBeNull();
   });
 });
