@@ -1,0 +1,43 @@
+{
+  "chainId": 200010,
+  "chainSlug": "hadrian",
+  "deployment": "stage1-own-agglayer",
+  "note": "Rome's own test AggLayer (Stage 1), run by Rome on Sepolia. It is NOT Polygon's Cardona or any Polygon-operated AggLayer.",
+  "networkId": 1,
+  "agglayerContractsRef": "110bda5a03e70ee7331bc06407a8e79226d3e520",
+  "hadrian": {
+    "chainId": 200010,
+    "role": "sovereign chain side (AggLayer network 1)",
+    "bridgeStartBlock": 516515335,
+    "gerStartBlock": 516515335,
+    "proxyAdmin": "0xdbe8fcd677368a6b397e4b3f2e6cc9154386f7b1",
+    "wethToken": "0x6991c6340f66a00bc1c8f5fa66a53f159c6fb8d5",
+    "tokenWrappedImplementation": "0x9b7e615c0d1a8e5280b9a83a0ae63abf6934149f",
+    "bridgeLib": "0x5b5e6cbf7dbe8db4c06bc3754d80f53e8b3c4346",
+    "bridge": {
+      "proxy": "0xe4826461c5149d127bc39cf36d8e6feb8464db03",
+      "implementation": "0xd32b997b5e6013cbd9f0dec0c40234e344f4449a"
+    },
+    "globalExitRootManager": {
+      "proxy": "0xb033c2db0fc621076f454fcb8d01f652ff991918",
+      "implementation": "0xe07aa32e81d8c032d762ae7766df601ed6812cf9"
+    }
+  },
+  "sepolia": {
+    "chainId": 11155111,
+    "role": "L1 side: Rome's own AggLayer contracts, not Polygon's",
+    "l1StartBlock": 12021383,
+    "rollupCreationBlock": 12021491,
+    "rollupManager": "0x4d88a94ffc5b9f5781d0a7323903ed0b74992f3f",
+    "bridge": "0x3fa823e6655c421f848ed2771cf3e0e9cccfef4c",
+    "globalExitRootManager": "0xf18a61b79d74bdf31b0d603f1e3dc627ba9d70af",
+    "polToken": "0x6a7e6ca0412ef376cc6ae79e669b8d4193169d54",
+    "rollup": "0xb3deda0beb5f9d86fc79849e57011b466d1d2677",
+    "gasTokenPlaceholder": {
+      "symbol": "RGP",
+      "name": "Rome Gas Placeholder",
+      "decimals": 18,
+      "address": "0x9bf3a81e3d23f782e34a87dba735a2c8c763597f"
+    }
+  }
+}
