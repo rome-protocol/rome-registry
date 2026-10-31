@@ -58,7 +58,7 @@ const programs = getPrograms("devnet");     // name → Solana program id
 | `getOracle(chainId)` | oracle factory + feed addresses |
 | `getBridge(chainId)` | bridge wiring (CCTP / Wormhole) |
 | `getAlts(chainId)` | persistent Address Lookup Tables |
-| `getCompoundDeployment(chainId)` / `getAaveDeployment(chainId)` / `getAgglayerDeployment(chainId)` | per-app deployment config. The AggLayer entry is Rome's own test AggLayer on Sepolia ("stage1-own-agglayer"), not Polygon's Cardona |
+| `getCompoundDeployment(chainId)` / `getAaveDeployment(chainId)` / `getAgglayerDeployment(chainId)` | per-app deployment config. The AggLayer entry is Rome's own test AggLayer on Sepolia ("stage1-own-agglayer"), not Polygon's Cardona. `chainSlug` names the Rome section and `l1Slug` / `l1ChainId` name the L1 section of the entry (`"sepolia"` / `11155111` on testnet), so a consumer reads each section by name |
 | `getPrograms(network)` | Solana program ids (`"mainnet"` / `"devnet"`) |
 | `getLstMints()` | liquid-staking-token mint catalog |
 

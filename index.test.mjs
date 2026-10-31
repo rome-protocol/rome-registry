@@ -78,6 +78,15 @@ describe("@rome-protocol/registry — consumer API over the public data", () => 
     expect(d.sepolia.chainId).toBe(11155111);
   });
 
+  it("the AggLayer entry names its Rome and L1 sections, and each name is a real section", () => {
+    const d = getAgglayerDeployment(200010);
+    expect(d.chainSlug).toBe("hadrian");
+    expect(d.l1Slug).toBe("sepolia");
+    expect(d.l1ChainId).toBe(11155111);
+    expect(d[d.chainSlug].chainId).toBe(d.chainId);
+    expect(d[d.l1Slug].chainId).toBe(d.l1ChainId);
+  });
+
   it("every AggLayer address is a well-formed 20-byte address and none repeats by mistake", () => {
     const d = getAgglayerDeployment(200010);
     const addrs = [];

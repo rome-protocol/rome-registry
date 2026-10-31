@@ -1,6 +1,8 @@
 {
   "chainId": 200010,
   "chainSlug": "hadrian",
+  "l1Slug": "sepolia",
+  "l1ChainId": 11155111,
   "deployment": "stage1-own-agglayer",
   "note": "Rome's own test AggLayer (Stage 1), run by Rome on Sepolia. It is NOT Polygon's Cardona or any Polygon-operated AggLayer.",
   "networkId": 1,
