@@ -21,6 +21,11 @@
     "globalExitRootManager": {
       "proxy": "0xb033c2db0fc621076f454fcb8d01f652ff991918",
       "implementation": "0xe07aa32e81d8c032d762ae7766df601ed6812cf9"
+    },
+    "splAdapterFactory": {
+      "address": "0xbd1624e8a008d67535e0386fe9e9be22d1dda5ca",
+      "deployBlock": 517051900,
+      "note": "Foreign tokens as SPL (rome-agglayer F3, shape A): deployed 2026-10-31 (tx 2843bf39d81f4f63fca6799434451d4720ae9c6890ba401faceb079aa95c7786); holds the Stage 1 bridge's manager role (setBridgeManager tx 8a64335184b888333af66547b460ee3a2aa6a5e20cd34992c01eb27c6725decb); owner = the sovereign admin; open setup off; ETH not mapped. Retired with Stage 1."
     }
   },
   "sepolia": {
